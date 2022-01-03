@@ -1,0 +1,244 @@
+{
+    "basic_info": {
+      "description_header": "👋 Hi there , I'm Ayman Hashim ",
+      "description": "In begging of 2021 I set a goal to learn Programming &web developing , So I enrolled to 1MAC initiative in fullstack web developer track & I win Advanced course in FullStack  web Developer from Udacity and I graduated in with nanodegree certificate In addition to that I learned from eBooks ,YouTube videos & other online course taught by professional  programmers have experience in this fields that helped me to learn a lot during few months . Now in this website I will introduce some of my Projects that I have developed during my learning journy & other Knowledge, Experiences , certificates & skills that I have in all fields  ",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Movie App",
+        "startDate": "2021",
+        "description": "Movie website to show movies trailers, ratings and there overviews. It is based on the TMDB API .",
+       
+        "images": [
+          "images/portfolio/movieApp/001.jpg",
+          "images/portfolio/movieApp/002.jpg",
+          "images/portfolio/movieApp/003.jpg"
+        ],
+        "url": "https://ayman-hashim.me/projects/movieApp",
+        
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JS"
+          }
+        ]
+      },
+      {
+        "title": "Music Player",
+        "startDate": "2021",
+        "description": "mp3 Music player with smaple music, The player able to play and pause functionality with Switch songs Progress bar features",
+        "images": [
+          "images/portfolio/musicApp/001.jpg",
+          "images/portfolio/musicApp/002.jpg"
+        ],
+        "url": "https://ayman-hashim.me/projects/MusicApp/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JS"
+          }
+        ]
+      },{"title": "expense tracker",
+        "startDate": "2021",
+        "description": " expenses traker to keep track the income & expenses . the website data saved to local storage of browser .",
+        "images": [
+          "images/portfolio/exTr/001.jpg",
+          "images/portfolio/exTr/002.jpg"
+        ],
+        "url": "https://ayman-hashim.me/projects/ExpenseTracker/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JS"
+          }
+        ]
+      },
+      {
+        "title": "Todo List (arabic)",
+        "startDate": "2021",
+        "description": "Arabic todo list , the user able to add item to list ,set Items compleated or remove item from list , All item saved to local storage",
+        "images": [
+          "images/portfolio/todo-list/001.jpg"
+        ],
+        "url": "https://ayman-hashim.me/projects/todo/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JS"
+          }
+        ]
+      },
+      {
+        "title": "Drawing App",
+        "startDate": "2021",
+        "description": "Simple drawing app for PC to drawing with mouse with any colors",
+        "images": [
+          "images/portfolio/drawingApp/001.jpg"
+        ],
+        "url": "https://ayman-hashim.me/projects/drawingApp/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JS"
+          }
+        ]
+      },
+      {
+        "title": "Qoutes App",
+        "startDate": "2021",
+        "description": "website to show some quotes that change automatically",
+        "images": [
+          "images/portfolio/quotes/001.jpg"
+        ],
+        "url": "https://ayman-hashim.me/projects/quotes/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JS"
+          }
+        ]
+      }
+      ,
+      {
+        "title": "Aspects of Life",
+        "startDate": "2021",
+        "description": "Simple website to share advice & idea to help other in thier life ",
+        "images": [
+          "images/portfolio/1macc/001.jpg",
+          "images/portfolio/1macc/002.jpg",
+          "images/portfolio/1macc/003.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-flask-plain",
+            "name": "Python flask"
+          }
+          ,
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "postgres"
+          }
+          ,
+          {
+            "class": "devicon-heroku-plain",
+            "name": "heroku"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "iDeveloper",
+        "title": "freelance",
+        "years": "08.2021 - present",
+        "mainTech": [
+          "React,python"
+        ],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Bootstrap",
+          "MDBootstrap",
+          "Postgres",
+          "mongoDB",
+          "flask",
+          "flask",
+          "React"
+        ]
+      },
+      {
+        "company": "udacity",
+        "title": "full Stack projects",
+        "years": "04.2021 - 08.2021",
+        "mainTech": [
+          "Python flask"
+        ],
+        "technologies": [
+          "REST API",
+          "SQL",
+          "postgres",
+          "flask",
+          "AWS",
+          "Docker",
+          "heroku"
+        ]
+      },
+      {
+        "company": "freelance",
+        "title": "wordpress designer ",
+        "years": "10.2020 - 1.2021",
+        "mainTech": [
+          "Wordpress"
+        ],
+        "technologies": [
+         
+          "elementor",
+	  "woocommerce"
+        ]
+      }
+    ]
+  }
