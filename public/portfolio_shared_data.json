@@ -1,0 +1,127 @@
+{
+    "basic_info": {
+      "name": "Ayman Hashim",
+      "titles": [ "Front-end Developer","Graphics Designer", "Back-end Developer", "DevOps engineer ", "IT Enginner","Network Engineer", "Telecom Enigneer" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com",
+          "class": "fab fa-instagram"
+        }
+      ],
+      "image": "myProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
+        },
+ 	{
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "80"
+        },
+	{
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
+          "level": "85"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain",
+          "level": "90"
+        },
+       
+        {
+          "name": "Sass",
+          "class": "devicon-sass-original",
+          "level": "75"
+        },
+        
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "65"
+        },
+        {
+          "name": "Postgres",
+          "class": "devicon-postgresql-plain",
+          "level": "60"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "75"
+        },
+        {
+          "name": "Flask",
+          "class": "devicon-flask-original",
+          "level": "75"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "75"
+        },
+      
+        {
+          "name": "Kubernetes",
+          "class": "devicon-kubernetes-plain",
+          "level": "75"
+        },
+	  {
+          "name": "Azure",
+          "class": "devicon-azure-plain",
+          "level": "75"
+        },
+	{
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-original",
+          "level": "75"
+        },
+        {
+          "name": "Heroku",
+          "class": "devicon-heroku-original",
+          "level": "75"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "75"
+        },
+        {
+          "name": "Github",
+          "class": "devicon-github-original",
+          "level": "75"
+        },
+        {
+          "name": "Wordpress",
+          "class": "devicon-wordpress-plain",
+          "level": "75"
+        },
+        {
+          "name": "canva",
+          "class": "devicon-canva-original",
+          "level": "75"
+        }
+	
+      ]
+    }
+  }

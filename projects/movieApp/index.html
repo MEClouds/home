@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie App</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">iMovies</div>
+      <form id="form">
+        <input type="text" id="search" class="search" placeholder="Search">
+      </form>
+    </header>
+
+    <div class="overlay"></div>
+    <div class="popup"> 
+      <iframe class="responsive-iframe" id="myFrame" src="" allowfullscreen></iframe>
+       <img class="close-btn"  onclick="closeVideo()" src="https://www.pngfind.com/pngs/b/176-1761191_fail-png.png" alt="">
+    </div>
+
+    <main id="main"></main>
+    <footer>
+      <small>iDeveloper</small>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

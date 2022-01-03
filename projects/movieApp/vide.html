@@ -1,0 +1,20 @@
+<script type="text/javascript">
+    function deleteVideo()
+    {
+    document.getElementById('VideoPlayer').src='';
+    }
+    
+    function LoadVideo()
+    {
+    document.getElementById('VideoPlayer').src='http://www.youtube.com/embed/tgbNymZ7vqY';
+    }
+    </script>
+    
+    <body>
+    
+    <p onclick="LoadVideo()">LOAD VIDEO</P>
+    <p onclick="deleteVideo()">CLOSE</P>
+    
+    <iframe id="VideoPlayer" width="853" height="480" src="http://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+    
+    </boby>

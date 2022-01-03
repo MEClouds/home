@@ -1,0 +1,64 @@
+<html>
+<head>
+<style>
+.popup .popuptext {
+visibility: hidden;
+position: fixed;
+width: 100vw;
+height: 100vh;
+}
+.btn{
+position: fixed;
+top: 10px;
+right: 20px;
+}
+
+   .screen{
+   width: 90vw;
+   height: 70vh;
+   }
+ 
+
+.popup .show {
+visibility: visible;
+-webkit-animation: fadeIn 1s;
+animation: fadeIn 1s;
+}
+@-webkit-keyframes fadeIn {
+from {opacity: 0;} 
+to {opacity: 1;}
+}
+@keyframes fadeIn {
+from {opacity: 0;}
+to {opacity:1 ;}
+}
+</style>
+</head>
+<body style="text-align:center">
+<div class="popup " onclick="myFunction()" ><button>Preview</button>
+  <div  class="popuptext " id="myPopup">
+ 
+<iframe  class="screen" id="video"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+
+</iframe>
+<button class="btn" >x</button>
+</div>
+</div>
+<script>
+function myFunction() {
+var popup = document.getElementById("myPopup");
+var video =document.getElementById('video')
+popup.classList.toggle("show");
+
+if (video.paused){ 
+    video.play(); 
+    }
+  else{ 
+    video.pause();
+    }
+ 
+}
+</script>
+</body>
+</html>
