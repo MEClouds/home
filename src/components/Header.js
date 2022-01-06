@@ -37,8 +37,8 @@ class Header extends Component {
     return (
       <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
         <div className="row aligner" style={{height: '100%'}}>
-          <div className="col-md-12">
-            <div>
+          <div className="col-md-12 aligner">
+            <div className="h-container">
               <span className="iconify header-icon" data-icon="dashicons:admin-users" data-inline="false"></span>
               <br/>
               <h1 className="mb-0">
@@ -50,7 +50,7 @@ class Header extends Component {
               <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}
-                offColor="#188015"
+                offColor="#a87a06ad"
                 onColor="#353535"
                 className="react-switch mx-auto"
                 width={90}

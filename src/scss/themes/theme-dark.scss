@@ -33,7 +33,15 @@ body[data-theme="dark"] {
    }
 
    header {
-      background-color: #494949;
+      // background-color: #494949;
+      background:   linear-gradient(
+         rgba(0, 0, 0, 0.26), 
+         rgba(0, 0, 0, 0.349)
+        ),url("../night3.jpg");
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
+      transition: all 0.5s ease-in-out;
       h1 {
          color: white;
       }

@@ -7,6 +7,7 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Cert from "./components/Cert";
 
 class App extends Component {
 
@@ -120,6 +121,10 @@ class App extends Component {
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
+        />
+        <Cert
+          sharedCert={this.state.sharedData.cert}
+          resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Projects
           resumeProjects={this.state.resumeData.projects}

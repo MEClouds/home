@@ -38,8 +38,15 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	 background-color: #3dcc39;
-	// background: url("./scss/cover3.jpg");
+	//  background-color: #3dcc39;
+	background:  linear-gradient(
+		rgba(0, 0, 0, 0.151), 
+		rgba(0, 0, 0, 0.233)
+	  ), url("./scss/day.jpg");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+	transition: all 0.5s ease-in-out;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -47,7 +54,16 @@ header {
 
 	padding-bottom: 0;
 }
+.h-container{
 
+	background:#ffffff69;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 320px;
+	border-radius: 5px;
+	
+
+}
 .language-icon {
 	font-size: 50px;
 	cursor: pointer;
@@ -71,6 +87,7 @@ header {
 	width: 100px;
 	margin: 5px 0 5px 0;
 	border-radius: 8px;
+	transition: all 0.2s ease-in-out;
 }
 
 // .language {
@@ -384,6 +401,19 @@ header h1 {
 	width: 100%;
 	overflow: hidden;
 	padding-bottom: 10%;
+}
+.cert {
+	background-color: transparentize(#bedbe9, 0.8);
+	padding: 10px 10px 5px 10px;
+	width: 100px;
+	margin: 5px 0 5px 0;
+	border-radius: 8px;
+	transition: all 0.2s ease-in-out;
+}
+.cert:hover{
+	background: rgb(190, 202, 202);
+	transform: scale(105%);
+	transition: all 0.2s ease-in-out;
 }
 
 .section-title {
