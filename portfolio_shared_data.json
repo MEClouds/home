@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "name": "Ayman Hashim",
-      "titles": [ "Front-end Developer","Graphics Designer", "Back-end Developer", "DevOps engineer ", "IT Enginner","Network Engineer", "Telecom Enigneer" ],
+      "name": "Ayman Hashim ",
+      "titles": [ "Frontend Developer","Graphics Designer", "Backend Developer", "DevOps engineer ", "IT Enginner","Network Engineer", "Telecom Enigneer" ],
       "social": [
         {
           "name": "github",
@@ -28,7 +28,7 @@
           "class": "devicon-css3-plain",
           "level": "95"
         },
- 	{
+ 	     {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
           "level": "70"
@@ -38,7 +38,7 @@
           "class": "devicon-react-plain",
           "level": "80"
         },
-	{
+	     {
           "name": "Bootstrap",
           "class": "devicon-bootstrap-plain",
           "level": "85"
@@ -86,12 +86,12 @@
           "class": "devicon-kubernetes-plain",
           "level": "75"
         },
-	  {
+	     {
           "name": "Azure",
           "class": "devicon-azure-plain",
           "level": "75"
         },
-	{
+	      {
           "name": "AWS",
           "class": "devicon-amazonwebservices-original",
           "level": "75"
@@ -123,5 +123,27 @@
         }
 	
       ]
+    },
+    "cert":{
+      "icons":[
+        {
+          "name":"udacity",
+          "logo":"icon-park:certificate",
+          "link":"https://graduation.udacity.com/confirm/XWNS4LU3"
+        },
+        {
+          "name":"Google",
+          "logo":"icon-park:certificate",
+          "link":"https://onedrive.live.com/?authkey=%21ABuxyFYMZdeCvzw&cid=98A64091DC811B78&id=98A64091DC811B78%214280&parId=98A64091DC811B78%213810&o=OneUp"
+        },
+        {
+          "name":"freeCodeCamp",
+          "logo":"icon-park:certificate",
+          "link":"https://www.freecodecamp.org/certification/ayman_hashim/scientific-computing-with-python-v7"
+        }
+
+
+      ]
     }
+
   }
